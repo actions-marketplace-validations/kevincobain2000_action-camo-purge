@@ -18,15 +18,13 @@
 # Using Action
 
 ```yaml
-    - uses: kevincobain2000/action-camo-purge@v1
+- uses: kevincobain2000/action-camo-purge@v1
 ```
 
 # About
 
 Github shields.io badges are cached by camo.
 This action purges the cache for the badges or any other images in `README.md`.
-
-Badges from codecov, [coveritup.app](https://coveritup.app), or any other external images in `README.md` are cached by Github using camo. This means, that the images are not loaded from the original source, but from a proxy server.
 
 Purging camo cache is necessary on regular basis, in order to show the latest values on the shield badges.
 
